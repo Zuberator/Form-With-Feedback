@@ -1,0 +1,49 @@
+body {font-family: 'Poppins'; height:100vh;display: flex;align-items: center;justify-content: center; margin: 0;}
+form h1 {margin: 0;}
+
+input,select,textarea {padding: 12px;border: 1px solid #000;box-sizing: border-box;margin-top: 10px;}
+input[type="checkbox"] {width:initial}
+
+.button {
+  text-transform: uppercase;
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 12px 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: .9rem;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#first, #second {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#first > * , #second > * {
+  flex: 1 0 0;
+}
+
+label {
+  letter-spacing: 2px;
+  font-size: .85rem;
+}
+
+input, textarea {
+  width: 100%;
+  min-width: 200px;
+}
+
+.form h1, button span {
+  letter-spacing: 2px;
+}
